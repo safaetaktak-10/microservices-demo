@@ -25,7 +25,6 @@ metadata:
   labels:
     app: adservice
 spec:
-  replicas: 1
   selector:
     matchLabels:
       app: adservice
